@@ -1,5 +1,5 @@
-# b8a9-event-management-sohelranaweb
-b8a9-event-management-sohelranaweb created by GitHub Classroom
+# event management assignment
+https://event-management-assignm-c130c.web.app
 
 ## Features and functionality of my webseite
 #### 1. User Authentication with Firebase:
