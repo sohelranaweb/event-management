@@ -3,9 +3,9 @@ b8a9-event-management-sohelranaweb created by GitHub Classroom
 
 ## Features and functionality of my webseite
 1. User Authentication with Firebase:
--- Secure user registration and login using Firebase Authentication.
--- Implement password reset and email verification for account management.
--- Personalize user experiences with authenticated user profiles.
+- Secure user registration and login using Firebase Authentication.
+- Implement password reset and email verification for account management.
+- Personalize user experiences with authenticated user profiles.
 
 2. React Router for Seamless Navigation:
 -- Utilize React Router to create a single-page application (SPA) experience.
