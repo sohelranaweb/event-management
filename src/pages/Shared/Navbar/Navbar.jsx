@@ -83,7 +83,7 @@ const Navbar = () => {
           </ul>
         </div>
         <a className="btn btn-ghost normal-case text-xl">
-          <img className="h-[48px]" src={logo} alt="" />
+          <img className="lg:h-[48px] md:h-[40px] h-[25px]" src={logo} alt="" />
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">

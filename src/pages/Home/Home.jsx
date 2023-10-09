@@ -21,7 +21,9 @@ const Home = () => {
       <div className="my-6">
         <Navbar></Navbar>
       </div>
-      <Banner></Banner>
+      <div className="lg:px-0 px-3">
+        <Banner></Banner>
+      </div>
       <h1 className="text-4xl text-center my-10 font-medium">Our Services</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-16">
         {services.map((service) => (
@@ -37,7 +39,7 @@ const Home = () => {
           lifelong <br /> learning and educational advancements.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:px-0 px-3">
         {latestEvent.map((event) => (
           <LatestEvent key={event.id} event={event}></LatestEvent>
         ))}
@@ -51,7 +53,9 @@ const Home = () => {
           lifelong <br /> learning and educational advancements.
         </p>
       </div>
-      <StudentsReviews></StudentsReviews>
+      <div className="lg:px-0 px-3">
+        <StudentsReviews></StudentsReviews>
+      </div>
       <div className="mt-12">
         <Footer></Footer>
       </div>

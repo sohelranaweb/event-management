@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const ServiceCard = ({ service }) => {
   const { id, name, image, short_description, course_details, price } = service;
   return (
-    <div>
-      <div className="card w-96 bg-base-100 shadow-xl">
+    <div className="lg:px-0 px-3">
+      <div className="card lg:w-96 w-full bg-base-100 shadow-xl">
         <figure>
           <img className="h-[256px] w-full" src={image} alt="Shoes" />
         </figure>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const LatestEvent = ({ event }) => {
   const { id, img, title, date, time_range, location, description } = event;
   return (
-    <div className="card card-compact w-96">
+    <div className="card card-compact lg:w-96 w-full">
       <figure>
         <img src={img} alt="Shoes" />
       </figure>
