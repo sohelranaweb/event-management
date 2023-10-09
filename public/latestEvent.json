@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "Online Tutoring Services",
+    "img": "https://i.ibb.co/bNf5Cwc/latest-Event-Usa.jpg",
+    "date": "2023-11-15",
+    "time_range": "9.00 am - 10.00 am",
+    "location": "New York, USA",
+    "description": "Join us for an upcoming event dedicated to Online Tutoring Services. This event will showcase a diverse range of online tutoring platforms and services. Explore innovative teaching methodologies, cutting-edge technology, and interactive learning tools. Discover how online tutoring can help students of all ages and levels excel in their studies. Get insights from industry experts, ask questions, and stay updated on the latest trends in online education. Whether you're a student, parent, or educator, this event offers a unique opportunity to explore and connect with leading online tutoring providers. Stay tuned for more details and mark your calendar for an informative and engaging event"
+  },
+  {
+    "id": "2",
+    "title": "E-Learning Platforms",
+    "img": "https://i.ibb.co/xS2XQQQ/latest-Event-London.jpg",
+    "date": "2023-10-20",
+    "time_range": "1.00 pm - 5.00 pm",
+    "location": "London, United Kingdom",
+    "description": "E-Learning platforms are online educational platforms designed to facilitate learning through digital resources and tools. These platforms have become increasingly popular due to their convenience, accessibility, and versatility. They provide a virtual environment where learners can access a wide range of educational content, including courses, tutorials, videos, quizzes, and more."
+  },
+  {
+    "id": "3",
+    "title": "Educational Consulting",
+    "img": "https://i.ibb.co/0Ktzxpg/latest-Event-Ast.jpg",
+    "date": "2023-12-05",
+    "time_range": "3.00 pm - 8.00 pm",
+    "location": "Sydney, Australia",
+    "description": "Educational consulting is a specialized service that provides guidance, advice, and support to individuals, institutions, and organizations in the field of education. These consultants offer expertise in various aspects of education, helping clients make informed decisions and achieve their educational goals. Here is a description of educational consulting"
+  }
+]

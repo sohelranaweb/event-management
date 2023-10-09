@@ -1,0 +1,50 @@
+[
+  {
+    "id": "course_a_123",
+    "name": "Online Tutoring Services",
+    "image": "https://i.ibb.co/qg9KcnQ/online-tutor.jpg",
+    "price": 49.99,
+    "short_description": "Access personalized one-on-one or group tutoring sessions with expert educators in various subjects and topics. Whether you need help with homework, exam preparation, or in-depth understanding of a subject, our online tutoring services provide the support you need to excel academically.",
+    "course_details": "Online tutoring services offer personalized learning experiences tailored to individual students' needs. Whether you're struggling with a specific subject or seeking advanced enrichment, online tutors provide one-on-one or group sessions through virtual platforms. These tutors are experts in various subjects, offering targeted support in mathematics, science, language arts, and more. With flexible scheduling and interactive tools, students can ask questions, receive immediate feedback, and work at their own pace, ultimately boosting their academic performance."
+  },
+  {
+    "id": "course_b_456",
+    "name": "E-Learning Platforms",
+    "image": "https://i.ibb.co/ZWWNhjz/e-learning.jpg",
+    "price": 59.99,
+    "short_description": "Explore a vast library of interactive courses and learning materials available online. E-learning platforms offer flexible and self-paced learning experiences, allowing you to acquire new skills, certifications, or degrees from the comfort of your home.",
+    "course_details": "E-learning platforms have transformed the way people access education and skill development. These online hubs host a wide array of courses and learning materials that cover diverse subjects, from programming and business management to arts and humanities. Learners can choose courses that align with their interests and goals, benefiting from self-paced learning, interactive quizzes, and video lectures. E-learning platforms also provide certification options, enabling individuals to acquire valuable skills and credentials for personal growth or career advancement."
+  },
+  {
+    "id": "course_c_789",
+    "name": "Educational Consulting",
+    "image": "https://i.ibb.co/1m6h04K/educational-consulting.jpg",
+    "price": 39.99,
+    "short_description": "Receive guidance and advice from experienced educational consultants who can help you make informed decisions about your academic or career path. Whether you're a student planning your future or an institution seeking strategic insights, educational consulting services can provide valuable direction.",
+    "course_details": "Educational consulting services are invaluable for students, parents, and educational institutions. Consultants specialize in providing guidance on academic planning, college admissions, and career development. They assist students in identifying their strengths, interests, and goals, helping them make informed decisions about their educational journey. Educational consultants also work with schools and colleges to optimize their curriculum, admissions processes, and strategic planning, ensuring the best possible outcomes for both students and institutions."
+  },
+  {
+    "id": "course_d_101",
+    "name": "Educational Content Creation",
+    "image": "https://i.ibb.co/jZXwX1v/edu-content.jpg",
+    "price": 69.99,
+    "short_description": "Create engaging and tailored educational content for your institution or online platform. Educational content creation services specialize in developing curriculum, textbooks, e-books, videos, and digital resources that enhance the learning experience for students of all ages.",
+    "course_details": "Educational content creation services focus on developing high-quality learning materials. This includes curriculum design, textbook writing, e-book creation, and the production of digital resources. Content creators collaborate with educators to ensure that the materials align with educational standards and pedagogical best practices. Their work enhances the learning experience, making education more engaging and effective for students of all ages."
+  },
+  {
+    "id": "course_e_202",
+    "name": "Test Preparation Courses",
+    "image": "https://i.ibb.co/tzqN5wT/test-online.jpg",
+    "price": 79.99,
+    "short_description": "Prepare for standardized tests such as SAT, ACT, GRE, GMAT, or professional certification exams with comprehensive test preparation courses. These services offer study materials, practice tests, and expert guidance to help you achieve your desired scores.",
+    "course_details": "Test preparation courses cater to individuals preparing for standardized exams such as SAT, ACT, GRE, GMAT, or professional certification tests. These courses provide comprehensive study materials, practice tests, and expert guidance to help students achieve their desired scores. Test prep courses often offer strategies for time management, test-taking, and problem-solving, equipping students with the skills and confidence they need to excel in these high-stakes assessments."
+  },
+  {
+    "id": "course_f_303",
+    "name": "Career Counseling and Coaching",
+    "image": "https://i.ibb.co/bXGRDpB/career-consulting.jpg",
+    "price": 49.99,
+    "short_description": "Career counseling and coaching services assist individuals in identifying their strengths, interests, and goals to make informed career choices. Professionals in this field provide personalized advice, skill assessments, and job search strategies to help you pursue a fulfilling career path.",
+    "course_details": "Career counseling and coaching services assist individuals in exploring their career options, setting goals, and navigating the job market. Career counselors help clients identify their strengths, interests, and values, aligning them with suitable career paths. Career coaches provide ongoing support, helping clients develop essential job search skills, refine resumes, and improve interview techniques. These services empower individuals to make informed career decisions and achieve success in their chosen fields."
+  }
+]
