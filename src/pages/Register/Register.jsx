@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../Shared/Navbar/Navbar";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
@@ -9,6 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 const Register = () => {
   const { createUser } = useContext(AuthContext);
   const [registerError, setRegisterError] = useState("");
+
   const notify = (message) => toast(message);
   const handleRegister = (e) => {
     e.preventDefault();
