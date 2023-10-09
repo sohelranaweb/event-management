@@ -6,9 +6,10 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Login = () => {
-  const { signIn } = useContext(AuthContext);
+  const { signIn, signInWithGoogle } = useContext(AuthContext);
   const location = useLocation();
   const navigate = useNavigate();
+
   const notify = (message) => toast(message);
   const handleLogin = (e) => {
     e.preventDefault();
@@ -26,6 +27,17 @@ const Login = () => {
         console.error(error);
         // Show a toast alert here with the error message
         notify("Login failed. Please check your email and password.");
+      });
+  };
+
+  const handleloginGoogle = () => {
+    signInWithGoogle()
+      .then((result) => {
+        console.log(result.user);
+        navigate(location?.state ? location.state : "/");
+      })
+      .catch((error) => {
+        console.log(error.message);
       });
   };
 
@@ -76,6 +88,12 @@ const Login = () => {
         </p>
       </div>
       <ToastContainer></ToastContainer>
+      <button
+        onClick={handleloginGoogle}
+        className="btn btn-outline btn-primary"
+      >
+        Google
+      </button>
     </div>
   );
 };
