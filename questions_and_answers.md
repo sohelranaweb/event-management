@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>Explanation: In the given code, there is a typographical error. The variable "greeting" is declared, but it is misspelled as "greetign" when you attempt to assign an empty object to it. As a result, JavaScript will throw a ReferenceError because it cannot find a variable named "greetign."</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>Explanation: JavaScript performs implicit type conversion in this case. When you try to add a number (1) to a string ("2"), JavaScript converts the number to a string and then concatenates the two strings, resulting in "12". So, the function returns the string "12".</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>Explanation: In the code, an array food is defined with initial values. Then, an object info is created with a property favoriteFood that is assigned the first element of the food array, which is "🍕". Later, the property info.favoriteFood is reassigned to "🍝". However, this reassignment only affects the info object and does not modify the original food array. Therefore, when you log food, it remains unchanged, resulting in the output ['🍕', '🍫', '🥑', '🍔'].</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>Explanation: The sayHi function expects a name parameter, but when it is called with sayHi(), no argument is provided. In this case, the name parameter inside the function will have the value of undefined. The function then returns a string with "Hi there," followed by the value of name, which is undefined. So, the output will be "Hi there, undefined."</i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>Explanation: The forEach method iterates over each element in the nums array and executes the provided callback function for each element. In this case, the callback function checks if the current element num is truthy (i.e., not equal to 0) and increments the count by 1 if num is truthy. Among the elements in the nums array (1, 2, and 3), three of them are truthy, so the count variable is incremented three times. Therefore, the final value of count is 3, and that's what gets logged to the console.</i>
 
 </p>
 </details>
