@@ -17,7 +17,7 @@ const StudentsReviews = () => {
           </div>
         </div>
         <p className="mt-3">
-          SkillUp's online courses have transformed my learning experience. The
+          SkillUp online courses have transformed my learning experience. The
           diverse range of topics and engaging content make it easy to acquire
           new skills at my own pace
         </p>
@@ -35,7 +35,7 @@ const StudentsReviews = () => {
           </div>
         </div>
         <p className="mt-3">
-          I'm impressed with SkillUp's course quality. The instructors are
+          I am impressed with SkillUp course quality. The instructors are
           knowledgeable, and the interactive lessons helped me gain practical
           skills that are valuable for my career.
         </p>

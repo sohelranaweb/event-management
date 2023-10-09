@@ -21,7 +21,7 @@ const Register = () => {
     // Password validation checks
     const minLength = 6;
     const hasCapitalLetter = /[A-Z]/.test(password);
-    const hasSpecialCharacter = /[!@#$%^&*()_+{}\[\]:;<>,.?~\\]/.test(password);
+    const hasSpecialCharacter = /[!@#$%^&*()_+{}[\]:;<>,.?~\\]/.test(password);
 
     if (password.length < minLength) {
       notify("Password must be at least 6 characters long.");

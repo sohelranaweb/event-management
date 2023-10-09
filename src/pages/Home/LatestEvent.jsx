@@ -1,5 +1,6 @@
 import { MdCalendarMonth, MdLocationOn, MdTimer } from "react-icons/md";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const LatestEvent = ({ event }) => {
   const { id, img, title, date, time_range, location, description } = event;
@@ -41,5 +42,7 @@ const LatestEvent = ({ event }) => {
     </div>
   );
 };
-
+LatestEvent.propTypes = {
+  event: PropTypes.object,
+};
 export default LatestEvent;
