@@ -21,12 +21,11 @@ const Login = () => {
     signIn(email, password)
       .then((result) => {
         console.log(result.user);
-
+        notify("successfully logged in");
         navigate(location?.state ? location.state : "/");
       })
       .catch((error) => {
         console.error(error);
-        // Show a toast alert here with the error message
         notify("Login failed. Please check your email and password.");
       });
   };
@@ -34,8 +33,8 @@ const Login = () => {
   const handleloginGoogle = () => {
     signInWithGoogle()
       .then((result) => {
-        console.log(result.user);
-
+        const loggedUser = result.user;
+        console.log(loggedUser);
         navigate(location?.state ? location.state : "/");
       })
       .catch((error) => {
@@ -72,11 +71,6 @@ const Login = () => {
               className="input input-bordered"
               required
             />
-            <label className="label">
-              <a href="#" className="label-text-alt link link-hover">
-                Forgot password?
-              </a>
-            </label>
           </div>
           <div className="form-control mt-6">
             <button className="btn text-white btn-outline bg-[#03b97c]">

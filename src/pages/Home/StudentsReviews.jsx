@@ -30,8 +30,8 @@ const StudentsReviews = () => {
             alt=""
           />
           <div>
-            <h1 className="text-2xl font-semibold">Robert Fox</h1>
-            <p>Linkedin Leader</p>
+            <h1 className="text-2xl font-semibold">John Dude</h1>
+            <p>Facebook marketer</p>
           </div>
         </div>
         <p className="mt-3">
@@ -48,8 +48,8 @@ const StudentsReviews = () => {
             alt=""
           />
           <div>
-            <h1 className="text-2xl font-semibold">Robert Fox</h1>
-            <p>Linkedin Leader</p>
+            <h1 className="text-2xl font-semibold">Wiliamson Hate</h1>
+            <p>Instagram Leader</p>
           </div>
         </div>
         <p className="mt-3">

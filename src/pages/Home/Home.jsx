@@ -18,16 +18,20 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar></Navbar>
+      <div className="my-6">
+        <Navbar></Navbar>
+      </div>
       <Banner></Banner>
-      <h1 className="text-3xl text-center my-10">Our Services</h1>
+      <h1 className="text-4xl text-center my-10 font-medium">Our Services</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-16">
         {services.map((service) => (
           <ServiceCard key={service.id} service={service}></ServiceCard>
         ))}
       </div>
       <div className="mt-24 mb-8">
-        <h1 className="text-center text-3xl">Latest News and Events</h1>
+        <h1 className="text-center text-3xl font-medium mb-2">
+          Latest News and Events
+        </h1>
         <p className="text-center text-lg">
           Stay updated with the latest education news and events, empowering
           lifelong <br /> learning and educational advancements.
@@ -39,7 +43,9 @@ const Home = () => {
         ))}
       </div>
       <div className="mt-24 mb-8">
-        <h1 className="text-center text-3xl">Our Students Reviews</h1>
+        <h1 className="text-center text-3xl font-medium mb-2">
+          Our Students Reviews
+        </h1>
         <p className="text-center text-lg">
           Stay updated with the latest education news and events, empowering
           lifelong <br /> learning and educational advancements.
