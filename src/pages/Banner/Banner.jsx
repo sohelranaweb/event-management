@@ -17,7 +17,6 @@ const Banner = () => {
             Empower Minds is to inspire, educate, and empower individuals of all
             ages on their journey toward educational excellence.
           </p>
-          <button className="btn btn-primary">Get Started</button>
         </div>
       </div>
     </div>

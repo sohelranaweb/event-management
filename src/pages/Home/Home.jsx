@@ -27,8 +27,8 @@ const Home = () => {
         ))}
       </div>
       <div className="mt-24 mb-8">
-        <h1 className="text-center">Latest News and Events</h1>
-        <p className="text-center">
+        <h1 className="text-center text-3xl">Latest News and Events</h1>
+        <p className="text-center text-lg">
           Stay updated with the latest education news and events, empowering
           lifelong <br /> learning and educational advancements.
         </p>
@@ -39,14 +39,16 @@ const Home = () => {
         ))}
       </div>
       <div className="mt-24 mb-8">
-        <h1 className="text-center">Our Students Reviews</h1>
-        <p className="text-center">
+        <h1 className="text-center text-3xl">Our Students Reviews</h1>
+        <p className="text-center text-lg">
           Stay updated with the latest education news and events, empowering
           lifelong <br /> learning and educational advancements.
         </p>
       </div>
       <StudentsReviews></StudentsReviews>
-      <Footer></Footer>
+      <div className="mt-12">
+        <Footer></Footer>
+      </div>
 
       {/* https://demoapus1.com/skillup/ */}
     </div>

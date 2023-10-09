@@ -21,6 +21,7 @@ const Login = () => {
     signIn(email, password)
       .then((result) => {
         console.log(result.user);
+
         navigate(location?.state ? location.state : "/");
       })
       .catch((error) => {
@@ -34,6 +35,7 @@ const Login = () => {
     signInWithGoogle()
       .then((result) => {
         console.log(result.user);
+
         navigate(location?.state ? location.state : "/");
       })
       .catch((error) => {
@@ -77,23 +79,25 @@ const Login = () => {
             </label>
           </div>
           <div className="form-control mt-6">
-            <button className="btn btn-primary">Login</button>
+            <button className="btn text-white btn-outline bg-[#03b97c]">
+              Login
+            </button>
           </div>
         </form>
         <p className="text-center mt-4">
           Do not have account{" "}
-          <Link className=" font-bold text-blue-600" to="/register">
+          <Link className=" font-bold text-[#03b97c]" to="/register">
             Register
           </Link>
         </p>
       </div>
       <ToastContainer></ToastContainer>
-      <button
-        onClick={handleloginGoogle}
-        className="btn btn-outline btn-primary"
-      >
-        Google
-      </button>
+      <p className="text-center mt-4">
+        Login with Google Account {""}
+        <Link onClick={handleloginGoogle} className=" font-bold text-[#03b97c]">
+          Google
+        </Link>
+      </p>
     </div>
   );
 };

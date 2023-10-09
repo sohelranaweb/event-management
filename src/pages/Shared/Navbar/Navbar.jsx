@@ -12,13 +12,46 @@ const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink
+          to="/"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "text-[#03b97c]  text-lg font-bold"
+              : "text-lg font-bold"
+          }
+        >
+          Home
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/login">Login</NavLink>
+        <NavLink
+          to="/login"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "text-[#03b97c]  text-lg font-bold"
+              : "text-lg font-bold"
+          }
+        >
+          Login
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/register">Register</NavLink>
+        <NavLink
+          to="/register"
+          className={({ isActive, isPending }) =>
+            isPending
+              ? "pending"
+              : isActive
+              ? "text-[#03b97c]  text-lg font-bold"
+              : "text-lg font-bold"
+          }
+        >
+          Register
+        </NavLink>
       </li>
     </>
   );
@@ -59,12 +92,17 @@ const Navbar = () => {
       <div className="navbar-end">
         <div className="mr-2">{user && <span>{user.email}</span>}</div>
         {user ? (
-          <button onClick={handleSignOut} className="btn">
+          <button
+            onClick={handleSignOut}
+            className="btn text-white btn-outline bg-[#03b97c]"
+          >
             Sign OUt
           </button>
         ) : (
           <Link to="/login">
-            <button className="btn">Login</button>
+            <button className="btn text-white btn-outline bg-[#03b97c]">
+              Login
+            </button>
           </Link>
         )}
       </div>

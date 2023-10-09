@@ -13,7 +13,10 @@ const LatestEvent = ({ event }) => {
         {description.length > 100 ? (
           <p>
             {description.slice(0, 70)}{" "}
-            <Link to={`/latestEvent/${id}`} className="text-blue-700 font-bold">
+            <Link
+              to={`/latestEvent/${id}`}
+              className="text-[#03b97c] font-bold text-xl"
+            >
               Know More...
             </Link>
           </p>
